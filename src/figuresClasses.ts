@@ -33,7 +33,7 @@ export class Triangle implements Figure {
     public sideB: number,
     public sideC: number,
   ) {
-    if (this.sideA <= 0 || this.sideB <= 0 || sideC <= 0) {
+    if (this.sideA <= 0 || this.sideB <= 0 || this.sideC <= 0) {
       throw new Error('incorrect sides');
     }
 
